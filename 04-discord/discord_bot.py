@@ -2,7 +2,7 @@ import discord
 intents = discord.Intents.default()
 intents.messages= True 
 client = discord.Client(intents=intents)
-bottoken=open("C:/Users/ivobe/Desktop/Geheim/Discordbot.txt", "r").readline()
+bottoken=open("Token comes here", "r").readline()
 
 @client.event
 async def on_ready():
