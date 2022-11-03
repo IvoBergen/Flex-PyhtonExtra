@@ -2,7 +2,7 @@ import discord
 intents = discord.Intents.default()
 intents.messages= True 
 client = discord.Client(intents=intents)
-bottoken=open("Token comes here", "r").readline()
+bottoken=open(MTAzNTA5MDQ2MTQyMzA0NjY4Ng.GLYigz.63hBOOwkbXehsY3GZmZWZpuIS9RvO8yFm97DM8, "r").readline()
 
 @client.event
 async def on_ready():
